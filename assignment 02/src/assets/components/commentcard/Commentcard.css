@@ -1,0 +1,66 @@
+.commentcard_main{
+    width: 100%;
+
+
+}
+.commentcard_container {
+    width: 558.69px;
+    height: 270.91px;
+    top: 144px;
+    left: 529px;
+    padding: 14.17px;
+    gap: 46.07px;
+    border-radius: 14.17px;
+    box-shadow: 0px 0px 4.72px 0px #0091EA80;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #FFFFFF;
+
+
+
+}
+
+.commentcard_comment {
+
+    width: 530.34px;
+    height: 115px;
+    font-family: Lato;
+    font-size: 18.9px;
+    font-weight: 500;
+    line-height: 22.68px;
+    text-align: left;
+    color: #666666;
+
+}
+
+.commentcard_about {
+    display: flex;
+    padding: 50px 0px;
+    width: 441.56px;
+    height: 81.5px;
+    gap: 53.15px;
+}
+
+.commentcard_about .commentcard_personimage {
+    width: 81.5px;
+    height: 81.5px;
+}
+
+.commentcard_personabout .person_profession {
+    display: flex;
+    gap: 10px;
+    margin-top: 0%;
+    
+}
+
+.commentcard_personabout .person_name{
+width: 81px;
+height: 36px;
+font-family: Lora;
+font-size: 28.35px;
+font-weight: 500;
+line-height: 36.29px;
+text-align: left;
+color: #090909;
+
+    
+}

@@ -1,0 +1,37 @@
+.nb {
+    height: 100px;
+    width: auto;
+    margin: 0;
+    padding: 0 20px; /* Adds padding on the left and right */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F2928;
+    color: white;
+}
+
+.nb-title {
+    margin: 0;
+    padding: 20pxj;
+}
+
+.nb-links {
+    display: flex;
+    gap: 20px; /* Adjusted gap between links for better spacing */
+    align-items: center;
+    justify-content: center;
+}
+
+.nb-btn{
+background-color: #0F2928;
+}
+
+@media  screen and (max-width: 400px) {
+
+    .nb-links{
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

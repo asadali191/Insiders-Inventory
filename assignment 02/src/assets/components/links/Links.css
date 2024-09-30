@@ -1,0 +1,7 @@
+.links_list{
+display: flex;
+gap: 20px; /* Adjusted gap between links for better spacing */
+align-items: center;
+justify-content: center;
+color: white;
+}

@@ -1,0 +1,158 @@
+.footer-upper {
+    background-color: #163231;
+    margin: 0px 5%;
+    border-radius: 20px;
+    z-index: 11;
+    position: relative;
+  }
+  
+  .footer-building {
+    width: 35%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  
+  }
+  
+  .box {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+  }
+  
+  
+  .footer-building-margin {
+    margin-top: 200px;
+  }
+  
+  .footer-upper-right {
+    padding: 30px 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-heaing {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 1160px) {
+    .footer-building-margin {
+        margin-top: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 1422px) {
+    .footer-building-margin {
+        margin-top: 450px;
+    }
+  }
+  
+  @media screen and (min-width: 1600px) {
+    .footer-building-margin {
+        margin-top:550px;
+    }
+}
+
+
+.lower-Footer {
+    display: flex;
+    flex-direction: column;
+    background: #0F2928;
+    border-radius: 10px; 
+    width: 100vw;
+    position: relative;
+    z-index: 4;
+    padding: 20px ;
+    height: 100vh;
+    max-height: 300px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden; 
+    margin-top: -50px;
+}
+
+
+.footer-Logo-Div {
+    width: 100%; 
+    position: absolute;
+    left: 34px;
+    top: 60px;
+}
+
+.footer-Logo-Div .logo-Img{
+    width: 149px;
+height: 79.92px;
+
+}
+
+.companyName-Div {
+    position: absolute;
+    top: 140px;
+    left: 44px;
+    gap: 7px;
+    display:flex;
+}
+
+.companyName-Div p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.second-Text  {
+    color: #4DAD49;
+    
+}
+
+.slogan-Div {
+    color: #fff;
+    font-size: 14.5xpx;
+    font-weight: 300;
+    padding: 30px 0px;
+    top: 155px;
+    left: 44px;
+    position: absolute;
+}
+
+.list-Div {
+    position: absolute;
+    display: flex;
+    top: 45px;
+    right: 60px;
+}
+
+.socialLinks-Div {
+    position: absolute;
+    justify-content: flex-end;
+    right: 160px;
+    top: 82px;
+}
+
+.footer-Copyrights {
+    position: absolute;
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+    bottom: 10px;
+    left: 500px;
+}
+
+hr {
+    position: absolute;
+    border: none; 
+    border-top: 1px solid #fff; 
+    width: 100%;
+    bottom: 50px;
+    box-sizing:border-box;
+}
